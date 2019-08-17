@@ -137,14 +137,14 @@
     }
     
     input:checked ~ .menu{
-        top: 87px;
+        right: 0px;
         margin-left: 40%;
         transition: 0.4s ease-in-out;
     }
 
     .menu{
-        top: -100%;
-        right: 5px;
+        right: -300px;
+        margin-top: 90px;
         display: block;
         position: absolute;
         float: left;

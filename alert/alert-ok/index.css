@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alert-ok{
+    border: 1px solid rgb(43, 112, 43);
+    background: rgb(80, 194, 80);
+    border-radius: 16px; 
+    padding: 15px;
+    font-size: 13pt;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+}
+
+.alert-ok span{
+    float: right;
+    font-size: 15pt;
+}
+
+.alert-ok span:hover{
+    cursor: pointer;
+    color:rgb(43, 112, 43);
+}

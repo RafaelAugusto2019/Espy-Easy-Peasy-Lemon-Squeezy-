@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alert-erro{
+    border: 1px solid rgb(102, 30, 30);
+    background: rgb(197, 78, 78);
+    border-radius: 16px; 
+    padding: 15px;
+    font-size: 13pt;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+}
+
+.alert-erro span{
+    float: right;
+    font-size: 15pt;
+}
+
+.alert-erro span:hover{
+    cursor: pointer;
+    color:rgb(102, 30, 30);
+}

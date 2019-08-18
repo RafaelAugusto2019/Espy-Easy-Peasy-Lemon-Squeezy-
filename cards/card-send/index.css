@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-information{
+    border: .5px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    width: 200px;
+}
+
+.card-information p{
+    width: 100%;
+    padding: 10px;
+}
+
+.card-information p label{
+    font-size: 11pt;
+    width: 100%;
+}
+
+.card-information p input{
+    font-size: 12pt;
+    border: none;
+    border-bottom: .5px solid #ccc;
+    height: 35px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.card-information p select{
+    border: .5px solid #ccc;
+    height: 35px;
+    width: 90%;
+    margin: 10px 5% 0 5%;
+    background: white;
+    border-radius: 5px;
+    color:black;
+    font-size: 12pt;
+}
+
+.card-information p:first-child{
+    font-size: 14pt;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.card-information p:last-child input{
+    width: 100%;
+    color: white;
+    background: rgb(117, 218, 117);
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 25px 0 0 0;
+    border-radius: 15px;
+}
+
+.card-information p:last-child input:hover{
+    cursor: pointer;
+    background: rgb(90, 168, 90);   
+}
+

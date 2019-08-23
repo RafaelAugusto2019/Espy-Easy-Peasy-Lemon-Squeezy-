@@ -40,6 +40,11 @@
     color:black;
     font-size: 12pt;
 }
+.card-information p input:focus,
+.card-information p select:focus{
+    border-color: rgb(90, 168, 90);
+    outline: none;
+}
 
 .card-information p:first-child{
     font-size: 14pt;

@@ -4,24 +4,24 @@
     box-sizing: border-box;
 }
 
-.card-information{
+.card-send {
     border: .5px solid #ccc;
     border-radius: 5px;
     background: white;
     width: 200px;
 }
 
-.card-information p{
+.card-send  p{
     width: 100%;
     padding: 10px;
 }
 
-.card-information p label{
+.card-send  p label{
     font-size: 11pt;
     width: 100%;
 }
 
-.card-information p input{
+.card-send  p input{
     font-size: 12pt;
     border: none;
     border-bottom: .5px solid #ccc;
@@ -30,7 +30,7 @@
     margin: 0 5%;
 }
 
-.card-information p select{
+.card-send  p select{
     border: .5px solid #ccc;
     height: 35px;
     width: 90%;
@@ -40,13 +40,13 @@
     color:black;
     font-size: 12pt;
 }
-.card-information p input:focus,
-.card-information p select:focus{
+.card-send  p input:focus,
+.card-send  p select:focus{
     border-color: rgb(90, 168, 90);
     outline: none;
 }
 
-.card-information p:first-child{
+.card-send  p:first-child{
     font-size: 14pt;
     border-bottom: 1px solid #ccc;
     width: 100%;
@@ -54,7 +54,7 @@
     margin: 0 0 20px 0;
 }
 
-.card-information p:last-child input{
+.card-send  p:last-child input{
     width: 100%;
     color: white;
     background: rgb(117, 218, 117);
@@ -64,7 +64,7 @@
     border-radius: 15px;
 }
 
-.card-information p:last-child input:hover{
+.card-send  p:last-child input:hover{
     cursor: pointer;
     background: rgb(90, 168, 90);   
 }

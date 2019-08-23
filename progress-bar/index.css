@@ -19,13 +19,13 @@
 
 .barra-progresso .valor{
     border-radius: 16px;
-    background: rgb(68, 68, 187);
+    background: rgb(180, 180, 252);
     content: "20%";
-    width: 50%;
+    width: 20%;
 }
 
-.barra-progresso .valor:after{
-    color: white;
+.barra-progresso .valor:after{  
+    color: black;
     content: "20%";
-    margin: 0 47%;
+    margin: 0 10px;
 }

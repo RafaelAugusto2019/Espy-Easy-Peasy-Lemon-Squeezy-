@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.panel{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card-photo{
+   border: 1px solid #ccc;
+   padding: 20px;
+}
+
+.card-photo figure{
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    margin:10px;
+}
+
+.card-photo figure img{
+    background: url(teste.jpg) no-repeat;
+    background-size: 400px 100%;
+    background-position: 100% 100%;
+    background-color: #fff;
+    height: 200px;
+}
+
+.card-photo figure img:hover{
+    background-size: 600px 100%;
+    background-position: 0px 0px;
+    transform: scale(1.4);
+}
+
+.card-photo figure figcaption{
+    color: rgb(46, 112, 90);
+    padding: 10px;
+}

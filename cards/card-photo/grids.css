@@ -1,0 +1,94 @@
+.contenier{
+    margin: 1% auto 0 auto;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+    .row:after {
+        clear: both;
+    }
+    
+.col{
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    margin-right: -4px;
+    padding: 1%;
+}
+
+@media screen and (max-width: 330px) {
+    .col-p-1{width: 5%;}
+    .col-p-2{width: 10%;}
+    .col-p-3{width: 15%;}
+    .col-p-4{width: 20%;}
+    .col-p-5{width: 25%;}
+    .col-p-6{width: 30%;}
+    .col-p-7{width: 35%;}
+    .col-p-8{width: 40%;}
+    .col-p-9{width: 45%;}
+    .col-p-10{width: 50%;}
+    .col-p-11{width: 55%;}
+    .col-p-12{width: 60%;}
+    .col-p-13{width: 65%;}
+    .col-p-14{width: 70%;}
+    .col-p-15{width: 75%;}
+    .col-p-16{width: 80%;}
+    .col-p-17{width: 85%;}
+    .col-p-18{width: 95%;}
+    .col-p-19{width: 95%;}
+    .col-p-20{width: 100%;}
+}
+
+@media screen and (max-width: 700px) {
+    .col-m-1{width: 5%;}
+    .col-m-2{width: 10%;}
+    .col-m-3{width: 15%;}
+    .col-m-4{width: 20%;}
+    .col-m-5{width: 25%;}
+    .col-m-6{width: 30%;}
+    .col-m-7{width: 35%;}
+    .col-m-8{width: 40%;}
+    .col-m-9{width: 45%;}
+    .col-m-10{width: 50%;}
+    .col-m-11{width: 55%;}
+    .col-m-12{width: 60%;}
+    .col-m-13{width: 65%;}
+    .col-m-14{width: 70%;}
+    .col-m-15{width: 75%;}
+    .col-m-16{width: 80%;}
+    .col-m-17{width: 85%;}
+    .col-m-18{width: 95%;}
+    .col-m-19{width: 95%;}
+    .col-m-20{width: 100%;}
+}
+
+@media screen and (min-width: 701px) {
+    .col-g-1{width: 5%;}
+    .col-g-2{width: 10%;}
+    .col-g-3{width: 15%;}
+    .col-g-4{width: 20%;}
+    .col-g-5{width: 25%;}
+    .col-g-6{width: 30%;}
+    .col-g-7{width: 35%;}
+    .col-g-8{width: 40%;}
+    .col-g-9{width: 45%;}
+    .col-g-10{width: 50%;}
+    .col-g-11{width: 55%;}
+    .col-g-12{width: 60%;}
+    .col-g-13{width: 65%;}
+    .col-g-14{width: 70%;}
+    .col-g-15{width: 75%;}
+    .col-g-16{width: 80%;}
+    .col-g-17{width: 85%;}
+    .col-g-18{width: 95%;}
+    .col-g-19{width: 95%;}
+    .col-g-20{width: 100%;}
+}

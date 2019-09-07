@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.panel{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card-panel{
+    border: 1px solid #ccc;
+    padding: 20px;   
+}
+
+.card-panel header{
+    font-weight: bold;
+    font-size: 14pt;  
+}
+
+.card-panel p{
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: justify;  
+}
+
+.card-panel footer{
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: right;  
+}

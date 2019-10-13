@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.system-grid{
+    display: grid;
+    grid-template-columns: repeat( 12, 1fr);  
+    column-gap: 20px;
+}
+
+div{
+    background: rgba(241, 180, 180, 0.719);
+    height: 100vh;
+}

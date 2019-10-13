@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.system-grid{
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer";
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+header{
+    grid-area: header; 
+
+    height: 70px; 
+    color: black;
+    font-size: 20pt;
+
+    align-items: center;
+
+    background:rgba(241, 180, 180, 0.719);
+}
+
+main{
+    grid-area: main; 
+
+    color: black;
+    font-size: 20pt;
+
+    align-items: center;
+
+    background: rgba(241, 180, 180, 0.719);
+}
+
+aside{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    float: right;
+    width: 300px;
+    top: 80px;
+    right: -300px;
+
+    color: black;
+    font-size: 20pt;
+    
+    background: rgb(235, 151, 151);
+}
+
+footer{
+    grid-area: footer; 
+
+    height: 60px;
+    color: black;
+    font-size: 20pt;
+    
+    align-items: center;
+
+    background: rgba(241, 180, 180, 0.719);
+}
+
+p{
+    text-align: center;
+}
+
+.button{
+    z-index: 2;
+    height: 40px;
+    width: 40px;
+    background: rgb(165, 64, 64);
+    position: fixed;
+    display: block;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    top: 80px;
+    right: 0px;
+}
+
+.linha-button{
+    height: 4px;
+    background: white;
+    width: 55%;
+    margin: 43% auto;
+    display: block;
+    position: relative;
+    transition: .2s ease-in-out;
+}
+
+.linha-button:before,
+.linha-button:after{
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: block; 
+    position: absolute;
+    transition: .2s ease-in-out;
+}
+
+.linha-button:before{
+    top: -8px;
+}
+
+.linha-button:after{
+    bottom: -8px;
+}
+
+#label-button-aside:checked ~ label .linha-button{
+    transform: rotate(45deg);
+}
+
+#label-button-aside:checked ~ label .linha-button:after{
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+#label-button-aside:checked ~ label .linha-button:before{
+    content: none;
+}
+
+#label-button-aside:checked ~ aside {
+    display: block;
+    right: 0;
+}
